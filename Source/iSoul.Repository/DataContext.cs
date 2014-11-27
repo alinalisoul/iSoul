@@ -52,7 +52,7 @@
             if (fakeDelete)
             {
                 var poco = dbSet.SingleOrDefault(d => d.Identity.Equals(id));
-                poco.IsDelete = true;
+                poco.IsDeleted = true;
             }
             else
             {
@@ -69,7 +69,7 @@
             if (fakeDelete)
             {
                 var pocos = dbSet.Where(filter).AsParallel();
-                pocos.ForAll(p => p.IsDelete = true);
+                pocos.ForAll(p => p.IsDeleted = true);
             }
             else
             {

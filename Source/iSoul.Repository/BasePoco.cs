@@ -9,10 +9,10 @@ namespace iSoul.Repository
         public BasePoco()
         {
             this.Identity = Guid.NewGuid();
-            //this.CreatedTime = DateTime.Now;
-            //this.UpdatedTime = DateTime.Now;
-            //this.DeletedTime = null;
-            //this.IsDeleted = false;
+            this.Created = DateTime.Now;
+            this.Updated = DateTime.Now;
+            this.Deleted = null;
+            this.IsDeleted = false;
         }
 
         [Key]
@@ -22,12 +22,12 @@ namespace iSoul.Repository
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int DisplayIdentity { get; set; }
 
-        //public DateTime CreatedTime { get; set; }
+        public DateTime Created { get; set; }
 
         public DateTime Updated { get; set; }
 
-        //public DateTime? DeletedTime { get; set; }
+        public DateTime? Deleted { get; set; }
 
-        public bool IsDelete { get; set; }
+        public bool IsDeleted { get; set; }
     }
 }
