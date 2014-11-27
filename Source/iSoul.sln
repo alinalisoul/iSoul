@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository", "Repository", "{115F7297-1DA3-4E60-822F-CBB98B53B869}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iSoul.Repository", "iSoul.Repository\iSoul.Repository.csproj", "{32A812EA-852D-492F-9FD1-AA90D8ACABEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{0C57890A-D48B-4C54-BC43-52783109BF64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iSoul.Model", "iSoul.Model\iSoul.Model.csproj", "{24830B74-28B0-4EEA-B448-752D9D38617A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{E2E03DC9-CA91-4726-A528-10F52E3686AD}"
+	ProjectSection(SolutionItems) = preProject
+		Libraries\AutoMapper.dll = Libraries\AutoMapper.dll
+		Libraries\AutoMapper.Net4.dll = Libraries\AutoMapper.Net4.dll
+		Libraries\EntityFramework.dll = Libraries\EntityFramework.dll
+		Libraries\EntityFramework.SqlServer.dll = Libraries\EntityFramework.SqlServer.dll
+		Libraries\Microsoft.Practices.Unity.Configuration.dll = Libraries\Microsoft.Practices.Unity.Configuration.dll
+		Libraries\Microsoft.Practices.Unity.dll = Libraries\Microsoft.Practices.Unity.dll
+		Libraries\Microsoft.Practices.Unity.RegistrationByConvention.dll = Libraries\Microsoft.Practices.Unity.RegistrationByConvention.dll
+		Libraries\ServiceStack.Common.dll = Libraries\ServiceStack.Common.dll
+		Libraries\ServiceStack.Interfaces.dll = Libraries\ServiceStack.Interfaces.dll
+		Libraries\ServiceStack.Redis.dll = Libraries\ServiceStack.Redis.dll
+		Libraries\ServiceStack.Text.dll = Libraries\ServiceStack.Text.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iSoul.Model.Core", "iSoul.Model.Core\iSoul.Model.Core.csproj", "{1CAE0CF4-37BC-44BC-AE37-999FA1FEE6A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32A812EA-852D-492F-9FD1-AA90D8ACABEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32A812EA-852D-492F-9FD1-AA90D8ACABEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32A812EA-852D-492F-9FD1-AA90D8ACABEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32A812EA-852D-492F-9FD1-AA90D8ACABEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24830B74-28B0-4EEA-B448-752D9D38617A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24830B74-28B0-4EEA-B448-752D9D38617A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24830B74-28B0-4EEA-B448-752D9D38617A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24830B74-28B0-4EEA-B448-752D9D38617A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CAE0CF4-37BC-44BC-AE37-999FA1FEE6A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CAE0CF4-37BC-44BC-AE37-999FA1FEE6A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CAE0CF4-37BC-44BC-AE37-999FA1FEE6A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CAE0CF4-37BC-44BC-AE37-999FA1FEE6A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{32A812EA-852D-492F-9FD1-AA90D8ACABEF} = {115F7297-1DA3-4E60-822F-CBB98B53B869}
+		{24830B74-28B0-4EEA-B448-752D9D38617A} = {0C57890A-D48B-4C54-BC43-52783109BF64}
+		{1CAE0CF4-37BC-44BC-AE37-999FA1FEE6A9} = {0C57890A-D48B-4C54-BC43-52783109BF64}
+	EndGlobalSection
+EndGlobal
